@@ -1,0 +1,26 @@
+/*--这里是内容开始--*/
+.con{width: 960px;height: auto;overflow: hidden;margin: 0 auto;margin-bottom: 60px;}
+.kong{width: 958px;height: 300px;border: 1px solid #ccc;background: #f9f9f9;
+margin-top: 10px;}
+.kong dl{width: 430px;height:auto;overflow:hidden;margin-top: 100px;margin-left: 265px;font-size: 12px;}
+.kong dl dt{float: left;}
+.kong dl dd{width:295px;float: left;margin-left: 20px;}
+.kong dl dd p{margin-top: 30px;line-height: 20px;}
+.kong dl dd p a{color: #8e0c3a;text-decoration: none;}
+/*--------这里是title开始--------------*/
+.title{width: 960px;margin: 0 auto;height: auto;overflow: hidden;margin-top: 10px;}
+.title .titleLeft,.titleRight{padding-top: 30px;height: 0;font-size: 0px;width: 350px;border-bottom: 1px solid #999;}
+.title .titleLeft{float: left;}
+.title .titleRight{float: right;}
+.title .titleCenter{margin-top:10px;width: 260px; text-align: center;font-size: 18px;line-height: 24px;float: left;}
+/*--------这里是title结束--------------*/
+/*--------这里是titleimg开始--------------*/
+.titleimg{width: 960px;height: 270px;margin: 0 auto;overflow: hidden;position:relative}
+.titleimg .imgcenter{width: 930px;margin: 0 auto;overflow: hidden;height: auto;}
+.titleimg .imgcenter dl{margin:0px 8px;float: left;width: 170px;height: auto;overflow: hidden;}
+.titleimg .imgcenter dl dd p{color:#555;margin-bottom:10px;text-align: center;font-size: 14px;line-height: 20px;}
+.titleimg .imgcenter dl dd .imgspe{color: #999;}
+.titleimg .leftbtn{position: absolute;left: 0;top: 105px;}
+.titleimg .rightbtn{position: absolute;right: 0;top: 105px;}
+/*--------这里是titleimg结束--------------*/
+/*--这里是内容结束--*/

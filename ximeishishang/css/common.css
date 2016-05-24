@@ -1,0 +1,73 @@
+/*--------这里是head开始--------------*/
+.head{width: 100%;height: auto;overflow: hidden;background-color: #f4f4f4;
+padding: 9px 0px;}
+.header{width: 960px;margin: 0 auto;font-size: 12px;color: #7a7a7a;}
+.header #headLeft{float: left;}
+.header #headLeft li{float: left;padding:3px 15px;}
+.header #headLeft li a{color: #7a7a7a;}
+.header #headLeft .speL{border-right: 1px solid #ccc;padding: 3px 15px 0px 0px;}
+.header #headRight{float:right;}
+.header #headRight li{float:right;padding:2px 0px 5px 0px;margin-left: 20px;}
+.header #headRight .speR{background: url(../img/shop.jpg) no-repeat left top;padding-left: 25px;}
+.header #headRight .speR span{margin-right:5px;display: inline-block;background: url(../img/shopList.jpg) no-repeat right top;padding-right: 23px;}
+.header #headRight .speR2{background: url(../img/aboutus.jpg) no-repeat left top;padding-left: 13px;}
+.header #headRight .speR img{padding-left: 5px;}
+/*--------这里是head结束--------------*/
+/*--------这里是logo开始--------------*/
+.logo{width: 960px; height: auto; overflow: hidden;margin:16px auto;}
+.logo div{float: left;}
+.logo .logoLeft{padding-left: 15px;}
+.logo .logoLeft img{vertical-align: middle;margin-left: 5px;}
+.logo .logoCenter{margin-left: 155px;margin-top: 12px;}
+.logo .logoRight{margin-left: 180px;position: relative;margin-top: 25px;}
+.logo .logoRight .txt,.search{float: left;}
+.logo .logoRight .txt{width: 155px; height: 25px;border: 1px solid #afafaf;line-height: 25px;padding-left: 5px;}
+.logo .logoRight .search{position:  absolute;right: 0;top:5px;width: 25px;height: 16px;
+background: url(../img/search.jpg) no-repeat center;border:0px;border-left:1px solid #afafaf;}
+/*--------这里是logo结束--------------*/
+/*--------这里是nav开始--------------*/
+.nav{width: 960px;height: 30px; margin: 0 auto;font-size: 14px;position: relative;}
+.nav ul{height:30px;border-bottom: 1px solid #333;}
+.nav ul li a{color: #000;text-decoration: none;}
+.nav ul li:hover{background-color: #8e0c3a;}
+.nav ul li:hover a{color: #fff;}
+.nav ul li{float: left; width: 96px;text-align: center;padding: 10px 0px;cursor: pointer;}
+.nav ul .navSpe{background-color: #ffb3b3;}
+.nav ul .navSpe:hover{background-color: #ffb3b3;}
+.nav ul .navSpe a{color: #fff;}
+/*--------这里是nav结束--------------*/
+/*--------这里是二级nav开始--------------*/
+.navlist{width: 960px;height: 255px;padding-bottom: 30px;padding-top: 20px;font-size: 12px;
+position: absolute;top:31px;left: 0;z-index: 2;background:#fff;border: 1px solid #ccc;border-top: 0;
+color: #333;}
+.navlist ul{float: left;width: 105px;height: auto;text-align: center;}
+.navlist .navrecommend{width: 570px;float: right;overflow: hidden;height: 255px;}
+/*--------这里是二级nav结束--------------*/
+/*--------这里是line开始--------------*/
+.line{width: 960px; height: 0;font-size: 0px;border-bottom: 1px solid #ccc;margin: 25px auto 0px;}
+/*--------这里是line结束--------------*/
+
+/*--------这里是foota开始--------------*/
+.foota{width: 960px;height: 120px;margin: 0 auto;overflow: hidden;margin-top: 30px;}
+.foota .footaLeft{float: left;border-right: 1px solid #ccc;padding: 15px 0px;}
+.foota .footaLeft ul{margin-right: 40px;float: left;font-size: 12px;line-height: 18px;text-align: center;}
+.foota .footaLeft ul .footaspe{line-height: 28px;font-weight: bold;color: #666;}
+.foota .footaLeft ul a{color: #7a7a7a;}
+.foota .footaCenter,.footaRight{height:70px;width: 235px;text-align: center;color: #666;padding-top: 18px;float: left;
+font-size: 14px;line-height: 24px;font-weight: bold;}
+.foota .footaRight{width:145px;line-height:20px;border-left: 1px solid #ccc;border-right: 1px solid #ccc;}
+.foota .footaRightt{float: right;}
+.foota .footaRightt dl{float: left;margin:0px 10px;text-align: center;font-size: 14px;text-align: center;color: #666;font-weight: bold;line-height: 20px;}
+/*--------这里是foota结束--------------*/
+/*--------这里是footb开始--------------*/
+.footb{width: 880px;height: auto;overflow: hidden;background: #eee;padding:5px 45px;margin: 0 auto;}
+.footb ul li{float: left;width: 95px;text-align: center;}
+.footb ul li a{font-size: 14px;color: #7a7a7a;text-decoration: none;}
+/*--------这里是footb结束--------------*/
+/*--------这里是footc开始--------------*/
+.footc{width: 960px;height: auto;overflow: hidden;line-height:18px;color:#777;font-size:12px;margin: 20px auto;text-align: center;}
+.footc span{margin-left: 50px;font-size: 12px;color: #666666;}
+.footc img{margin-left: 5px;vertical-align:middle;margin-bottom: 15px;}
+.footc p{margin-top: 15px;}
+.footc p img{margin: 10px;}
+/*--------这里是footc结束--------------*/

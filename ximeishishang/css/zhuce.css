@@ -1,0 +1,13 @@
+/*--这里是注册的中间部分开始--*/
+.center{width: 960px;height:520px;position: relative;
+background: url(../img/zhucebg.jpg) no-repeat left center;margin: 20px auto;}
+/*--这里是表单开始--*/
+.center .centerform{width: 272px;height: 210px;position: absolute;left: 115px;top: 225px;}
+.center .centerform p{margin-bottom: 20px;font-size: 12px; color: #6c6c6c;}
+.center .centerform p .centertxt,.centerpsw,.centerrepsw{width: 200px;height: 18px;padding-left: 2px;border:1px solid #bbbbbb;}
+.center .centerform .chec{padding-left: 70px;}
+.center .centerform .chec .centersub{width: 200px;height: 30px;color: #fff;background: #8e0c3a;border: 0;font-size: 14px;}
+.center .centerform .log{text-align: right;color: #6c6c6c;}
+.center .centerform .log a{color: #8e0c3a;text-decoration: none;font-size: 12px;}
+/*--这里是表单结束--*/
+/*--这里是注册的中间部分结束--*/

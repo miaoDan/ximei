@@ -1,0 +1,46 @@
+/*中间部分的开始*/
+.center{width: 960px;height: auto;overflow: hidden;margin: 10px auto;}
+.centerleft{width:190px ;float: left;height: auto;overflow: hidden;margin-right: 20px;}
+.centerright{width: 750px;float: right;height: auto;overflow: hidden;}
+/*中间左半部分的开始*/
+.centerleft .mainlist{font-size: 12px;font-weight: bold;line-height: 20px;color: #666;}
+.centerleft .mainlist li{background: url(../img/you.jpg) no-repeat 170px 5px;}
+.centerleft .mainlist .li-list{margin-left: 15px;font-weight: normal;display: none;}
+.centerleft .mainlist .li-list li{background: none;}
+.centerleft .mainlist .li-list a{color: #666;}
+h3{font-size: 12px;color: #666;font-weight: bold;margin-top: 45px;width: 185px;padding-left: 5px;border-bottom: 1px solid #eee;padding-bottom: 5px;
+background: url(../img/dian.jpg) no-repeat 38px 2px;}
+h3 span{display: inline-block;width:170px;background: url(../img/you.jpg) no-repeat right center;}
+.list{margin-left: 15px;margin-top: 15px;font-size: 12px;display: none;}
+.sex{display: block;}
+.list li{margin-bottom:27px;line-height: 14px;}
+.list a{color: #7a7a7a;text-align: center;}
+.colortype{width: 160px;margin: 5px 0px 0px 10px;}
+.colortype img{margin: 1px;float: left;}
+/*中间左半部分的结束*/
+
+/*中间右半部分的开始*/
+.centerright h4{font-size: 12px;line-height: 20px;padding: 0px 10px;width: 730px;
+border-bottom: 1px solid #eee;color: #6c6c6c;}
+.centerright h4 span{margin: 0px 7px;}
+.centerright .hactive{color: #9c0c3a;font-weight: bold;}
+.centerright h4 a{float: right;margin: 0px 5px;text-decoration: none;}
+.centerright a:hover{color: #9c0c3a;}
+.concrete{width: 100%;height: auto;overflow: hidden;border-bottom: 1px solid #eee;padding-bottom: 30px;}
+.concrete dl{float: left;margin-left: 30px;}
+.concrete dl p{font-size: 12px;font-weight: bold;width:160px;line-height: 18px;color: #7a7a7a;}
+.concrete dl .pspe{text-align: right;color: #8e0c3a;}
+.concrete dl .pspe del{float: left;color: #bbb;}
+.fenye{margin: 5px 5px 50px 0px;}
+.fenye a{float: right;margin: 0px 5px;text-decoration: none;font-size: 12px;}
+/*中间右半部分的结束*/
+/*中间部分的结束*/
+
+/*底部第一部分中间的表单开始*/
+.foota .footaRight{text-align: center;padding-top: 10px;}
+.footaRight .foottxt{color:#999;width: 125px;height: 16px;border: 1px solid #a3a3a3;
+padding-left: 5px;}
+.footaRight .footbtn{width: 50px;height: 18px;border: 0;
+background: #333;color: #fff;font-size: 12px;}
+.foota .footaRight p{margin: 5px 0px;font-size: 14px;}
+/*底部第一部分中间的表单结束*/

@@ -1,0 +1,28 @@
+/*--这里是内容开始--*/
+.con{width: 960px;height: auto;overflow: hidden;margin: 0 auto;}
+.shoppingBox{width:100%;margin: 0 auto;}
+.shoppingBox table{width:100%; margin-top:10px;font-size: 12px;color: #6c6c6c; }
+.shoppingBox table th{background:#eee;height:40px; line-height: 40px;color: #6c6c6c;}
+.shoppingBox table td{ padding:10px;color:#7a7a7a;height:79px;  line-height: 79px;border-bottom:1px solid #eee}
+.goods{width:80px;padding-left:25px; }
+.name{width: 565px;}
+.goods img{width:33px;height:36px;padding-left:25px;float:left;vertical-align: middle;line-height: 36px;}
+
+#allCheck{ vertical-align:middle;}
+
+.count{width:110px;text-align: center; }
+.count input{width:50px; height:23px; border: 0; text-align: center;color:#7a7a7a;}
+/*--这里是总计开始--*/
+.last{with:960px;height:auto;margin:20px auto 70px;}
+.last .total{text-align: right;height: 56px;line-height: 56px;color:#7a7a7a;}
+.del{width:100px; text-align: center; height: 90px; }
+.del a{color:#7a7a7a;text-decoration: none;}
+.del a:hover{color:#f00;cursor: pointer;}
+.last .total span{color:#aa0c3a;font-size:18px;margin-left:40px;font-weight: 600;}
+.last .img{clear: both;width: 161px;	height: 47px;float: right;}
+i{font-style: normal;}
+.last p{font-size: 12px;color: #7a7a7a;}
+.last .jisuan{text-align:left;width: 120px;height: 40px;background: url(../img/totalbg.jpg) no-repeat left center;
+padding-left:50px;color: #fff;line-height: 40px;border: 0;float: right;}
+/*--这里是总计结束--*/
+/*--这里是内容结束--*/

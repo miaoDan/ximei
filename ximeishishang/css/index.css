@@ -1,0 +1,82 @@
+
+/*--------这里是banner开始--------------*/
+.banner{z-index:1;width: 960px;position:relative;height: 500px;overflow: hidden;margin: 10px auto 0px;}
+.banner ul li{float: left;}
+.banner ul{height: auto;overflow: hidden;width: auto;overflow: hidden;position: absolute;left: 0;top: 0;}
+/*--------这里是banner结束--------------*/
+/*--------这里是吸顶开始--------------*/
+.xiding{width: 100%;height: 55px;border-bottom: 1px solid #999;position: fixed;left: 0;top: 0;background: #fff;
+display: none;}
+.topcont{width: 960px;height:35px;margin: 13px auto 8px;}
+.topcont img{float: left;}
+.topcont form{float: left;margin-left: 55px;position: relative;}
+.topcont span{float: right;background: url(../img/brands.png) no-repeat left top;padding-left: 25px;width: 55px;color: #9C0C3A;
+font-size: 12px;margin-top: 10px;cursor: pointer;position: relative;padding-bottom: 20px;}
+.topcont .xitxt{width:595px;height: 28px; border: 2px solid #8e0c3a;
+line-height: 28px;padding-left: 5px;color: #999;}
+.topcont .xibtn{width: 28px;height: 20px;border:0px;border-left: 1px solid #adadad;background: url(../img/search.jpg) no-repeat center;
+position: absolute;right: 0;top: 0;margin-top: 5px;cursor:pointer;}
+.xilist{width: 960px;height: auto;overflow: hidden;position: absolute;top: 30px;right: 0;background: #fff;
+border: 1px solid #999;border-top: 0;display: none;}
+.xilist ul{float: left;margin-left: 20px;font-size: 12px;line-height: 24px;margin-bottom: 25px;}
+.xilist ul li a{color: #7a7a7a;text-decoration: none;}
+.xilist ul .xispe a{color:#8E0C3A;font-weight: bold;}
+.xilist ul .xispe{line-height: 30px;}
+/*--------这里是吸顶结束--------------*/
+/*--------这里是floor开始--------------*/
+.floor{width: 60px;position: fixed;left: 10px;top: 30%;border: 1px solid #000;}
+.floor ul li{border-bottom: 1px dotted #333;padding:10px 0px;text-align: center;font-size: 12px;
+color: #666;cursor: pointer;position: relative;}
+.floor ul li:hover{color: #fff;}
+.floor ul li.floorlast{background: #9C0C3A;color: #fff;}
+.floor ul li span{display: none;width:60px;position: absolute;left: 0;top: 0;padding: 10px 0px;
+text-align: center;}
+.floor ul li span.active{display:block;color: #8e0c3a;background: #fff;}
+.floor li:hover span{display: block;background: #05a98e;color: #fff;}
+.floor li:hover span.active{display: block;background: #05a98e;color: #fff;}
+/*--------这里是floor结束--------------*/
+/*--------这里是cente和center开始--------------*/
+.center,.content{width: 960px;height: auto;overflow: hidden;margin: 0 auto;}
+/*--------这里是center和content结束--------------*/
+/*--------这里是title开始--------------*/
+.title{width: 960px;margin: 0 auto;height: auto;overflow: hidden;margin-top: 10px;}
+.title .titleLeft,.titleRight{padding-top: 30px;height: 0;font-size: 0px;width: 350px;border-bottom: 1px solid #999;}
+.title .titleLeft{float: left;}
+.title .titleRight{float: right;}
+.title .titleCenter{margin-top:10px;width: 260px; text-align: center;font-size: 18px;line-height: 24px;float: left;}
+/*--------这里是title结束--------------*/
+/*--------这里是titlepic开始--------------*/
+.titlepic{width: 960px;margin: 10px auto 0px;height: auto;overflow: hidden;}
+.titlepic .picLeft{width: 316px;height: auto;float: left;}
+.titlepic .picRight{width: 316px;height: auto;float: right;}
+.titlepic .picLeft img,.picRight img{margin-bottom:6px;}
+.titlepic .picCenter{width: 315px;height: auto;float: left;margin: 0px 6px;}
+/*--------这里是titlepic结束--------------*/
+/*--------这里是titpic开始--------------*/
+.titpic{width: 960px;margin: 0 auto;height: auto;overflow: hidden;}
+.titpic dl{padding-left: 5px;float: left;margin: 5px 3px;border: 1px solid #eee;width: 305px;height: auto;overflow: hidden;}
+.titpic dl dt{text-align: center;;}
+.titpic dl dt p{position: relative;}
+.titpic dl a{color: #7A7A7A;font-size:12px;font-weight: bold;text-decoration: none;}
+.titpic dl a:hover{color: #8E0C3A;}
+.titpic dl dd span{width: 54px;height: 18px;background: url(../img/qiangbg.jpg) no-repeat left center;
+padding-left: 15px;font-size: 10px;text-align: center;color: #fff;line-height: 18px;float: right;
+margin: 2px;cursor: pointer;}
+/*--------这里是titpic结束--------------*/
+/*--------这里是titleimg开始--------------*/
+.titleimg{width: 960px;height: 270px;margin: 0 auto;overflow: hidden;position:relative}
+.titleimg .imgcenter{width: 930px;margin: 0 auto;overflow: hidden;height: auto;}
+.titleimg .imgcenter dl{margin:0px 8px;float: left;width: 170px;height: auto;overflow: hidden;}
+.titleimg .imgcenter dl dd p{color:#555;margin-bottom:10px;text-align: center;font-size: 14px;line-height: 20px;}
+.titleimg .imgcenter dl dd .imgspe{color: #999;}
+.titleimg .leftbtn{position: absolute;left: 0;top: 105px;}
+.titleimg .rightbtn{position: absolute;right: 0;top: 105px;}
+/*--------这里是titleimg结束--------------*/
+/*--------这里是底部表单开始--------------*/
+.titlepic .picCenter .picform{width: 245px;height: 30px;margin: 0 auto;padding-left: 20px;}
+.titlepic .picCenter .picform .pictxt{color:#999;width: 125px;height: 28px;border: 1px solid #a3a3a3;
+background: url(../img/mail.jpg) no-repeat 6px center;padding-left: 30px;float: left;}
+.titlepic .picCenter .picform .picbtn{width: 70px;margin-left: 5px;float: left;height: 32px;border: 0;
+background: #333;color: #fff;font-size: 12px;}
+/*--------这里是底部表单结束--------------*/
+
